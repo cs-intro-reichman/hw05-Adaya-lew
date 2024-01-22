@@ -173,11 +173,11 @@
             	System.out.printf("  %s ", arr[i][j]);  
         	}
        	 	else if (j == arr[i].length-2){
-       	 		System.out.printf(" %s ", arr[i][j]);
+       	 		System.out.printf(" %s", arr[i][j]);
        	 	}
        	 	else {
        	 		System.out.printf(" %s ", arr[i][j]);
-       	 	}
+       	 		}
     	
     		}
     		System.out.println();
