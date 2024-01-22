@@ -170,7 +170,7 @@
         for (int j = 1; j < arr[i].length - 1; j++) {
 
         	if(j==1){
-            	System.out.printf(" %s ", arr[i][j]);  
+            	System.out.printf("  %s ", arr[i][j]);  
         	}
        	 	else if (j == arr[i].length-2){
        	 		System.out.printf(" %s ", arr[i][j]);
