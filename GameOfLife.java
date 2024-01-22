@@ -16,7 +16,7 @@
 		// test1(fileName);
 		// test2(fileName);
 		// test3(fileName, 3);
-		//play(fileName);
+		play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -168,7 +168,7 @@
     public static void print(int[][] arr) {
     	for(int i=0; i< arr.length-1; i++){
     		for(int j=0; j< arr[i].length-1; j++){
-    			System.out.printf(" " + arr[i][j]);
+    			System.out.printf("%4s" + arr[i][j]);
     		}
 			System.out.println();
     	}
