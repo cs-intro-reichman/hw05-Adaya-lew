@@ -16,7 +16,7 @@
 		// test1(fileName);
 		// test2(fileName);
 		// test3(fileName, 3);
-		play(fileName);
+		//play(fileName);
 	}
 	
 	// Reads the data file and prints the initial board.
@@ -32,8 +32,8 @@
 		//// Write here code that tests that the count and cellValue functions
 		//// are working properly, and returning the correct values.
 		print(board);
-		System.out.println(count(board, 2, 2));
-		System.out.println(cellValue(board, 2, 2));
+		//System.out.println(count(board, 2, 2));
+		//System.out.println(cellValue(board, 2, 2));
 	}
 		
 	// Reads the data file, plays the game for Ngen generations, 
